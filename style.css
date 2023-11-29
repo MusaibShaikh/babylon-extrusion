@@ -1,0 +1,94 @@
+html, body{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#renderCanvas{
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+#sidePanel {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 5;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  width: 200px;
+}
+
+#sidePanel h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.btn {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px; /* Rounded corners */
+  width : 100%;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.option {
+  display: inline-block;
+  width: calc(50% - 10px);
+}
+
+.hidden {
+  display: none;
+}
+
+#extrudeButton, #cancelAddShapeButton, #saveDeleteShapeButton, #cancelDeleteShapeButton, #saveMoveButton, #cancelMoveButton, #saveRemovePointButton, #cancelRemovePointButton, #saveMovePointButton, #cancelMovePointButton, #addStartPointButton, #addEndPointButton, #saveAddingPointButton, #cancelAddingPointButton, #addStartPointButton, #addEndPointButton{
+  width : 48%;
+}
+
+#addPointButton, #removePointButton, #movePointButton, #doneEditButton, #doneAddPointButton{
+  width : 100%;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  transition: 0.5s;
+  border-radius: 12px; /* Rounded corners */
+}
+
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
