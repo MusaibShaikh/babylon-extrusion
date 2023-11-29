@@ -19,17 +19,17 @@ The goal of this assignment is to create a Babylon.js application that allows th
 ## Setup:
 1. Clone Repository:
     ```bash
-        git clone https://github.com/MusaibShaikh/babylon-extrusion
+    git clone https://github.com/MusaibShaikh/babylon-extrusion
     ```
 
 2. Install Dependencies: 
     ```bash
-        npm install
+    npm install
     ```
 
 3. Running the Program:
     ```bash
-        npm run dev
+    npm run dev
     ```
 
 
