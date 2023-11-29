@@ -49,8 +49,8 @@ The goal of this assignment is to create a Babylon.js application that allows th
 
 ### Move Shape:
 - Click on the "Move Shape" button to enter the move mode.
-- Click on a 3D shape to select it and create a holographic copy.
-- Move the hologram to the desired location.
+- Click on a 3D shape to select it and drag it around to see it's holographic representation.
+- Move the hologram to the desired location by selecting and dragging the 3d Shape and leaving left click once done to place there.
 - Click "Save" to confirm the move or "Cancel" to revert.
 - Note: Only one shape can be moved at a time. Also, you may need to change viewing angle a little if the object is not highlighted.
 
@@ -58,6 +58,7 @@ The goal of this assignment is to create a Babylon.js application that allows th
 - Click on the "Vertex Edit" button to enter vertex editing mode.
 - Click on a 3D shape to enter edit mode.
 - Add vertices, remove vertices, or move vertices using respective buttons.
+- For Move Vertex, Move the vertex to the desired location by selecting and dragging it and leaving left click once done to place there.
 - For each of the vertice operation, click "Save" to confirm the changes or "Cancel" to revert.
 - Click "Done" to after finishing all the edit changes.
 - Note: Multiple vertices can be added, removed, or moved at once. Also, you may need to change viewing angle a little if the vertex is not highlighted.
