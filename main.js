@@ -545,6 +545,8 @@ saveMovePointButton.addEventListener("click", function(){
   addPointButton.classList.remove('hidden');
   removePointButton.classList.remove('hidden');
   movePointButton.disabled = false;
+  hologramPointFigure.dispose();
+  hologramPointFigure = null;
   isMovingPoint = false;
 });
 
@@ -555,6 +557,10 @@ cancelMovePointButton.addEventListener("click", function(){
     pointMeshes[i].dispose();
   }
   pointMeshes = [];
+  hologramPointFigure.dispose();
+  hologramPointFigure = null;
+  pointFigure.dispose();
+  pointFigure = BABYLON.MeshBuilder.CreateLines("edit", {points : points}, scene);
   doneEditButton.classList.remove('hidden');
   addPointButton.classList.remove('hidden');
   removePointButton.classList.remove('hidden');
@@ -816,8 +822,6 @@ canvas.addEventListener("pointerup", function () {
       hologramPointMesh = null;
       pointFigure.dispose();
       pointFigure = hologramPointFigure.clone();
-      hologramPointFigure.dispose();
-      hologramPointFigure = null;
       pointMeshToMove.dispose();
       pointMeshToMove = null;
 
