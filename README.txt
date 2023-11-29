@@ -38,14 +38,14 @@ Delete Shape:
 - Click on the "Delete Shape" button to enter the delete mode.
 - Click on a 3D shape to hide it.
 - Click "Save" to confirm deletion or "Cancel" to revert.
-- Note: Only one shape can be deleted at a time.
+- Note: Only one shape can be deleted at a time. Also, you may need to change viewing angle a little if the object is not highlighted.
 
 Move Shape:
 - Click on the "Move Shape" button to enter the move mode.
 - Click on a 3D shape to select it and create a holographic copy.
 - Move the hologram to the desired location.
 - Click "Save" to confirm the move or "Cancel" to revert.
-- Note: Only one shape can be moved at a time.
+- Note: Only one shape can be moved at a time. Also, you may need to change viewing angle a little if the object is not highlighted.
 
 Vertex Edit:
 - Click on the "Vertex Edit" button to enter vertex editing mode.
@@ -53,4 +53,5 @@ Vertex Edit:
 - Add vertices, remove vertices, or move vertices using respective buttons.
 - For each of the vertice operation, click "Save" to confirm the changes or "Cancel" to revert.
 - Click "Done" to after finishing all the edit changes.
-- Note: Multiple vertices can be added, removed, or moved at once.
+- Note: Multiple vertices can be added, removed, or moved at once. Also, you may need to change viewing angle a little if the vertex is not highlighted.
+
